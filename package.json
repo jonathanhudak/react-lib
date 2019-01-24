@@ -1,0 +1,29 @@
+{
+  "name": "dbdbdb-provider",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"npm:dev-*\"",
+    "dev-demo": "parcel index.html",
+    "dev-lib": "rollup -c -w",
+    "build": "rollup src/index.js --file index.js --format esm",
+    "deploy": "gh-pages -d dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.8.0-alpha.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-react": "^7.0.0",
+    "concurrently": "^4.1.0",
+    "gh-pages": "^2.0.1",
+    "parcel-bundler": "^1.11.0",
+    "react-dom": "^16.8.0-alpha.1",
+    "rollup": "^1.1.2",
+    "rollup-plugin-babel": "^4.3.2"
+  }
+}
