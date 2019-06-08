@@ -1,9 +1,9 @@
-import React from "react";
-import { render } from "@testing-library/react";
-import MyComponent from ".";
+import React from 'react';
+import { render } from '@testing-library/react';
+import MyComponent from '.';
 
-test("Component", () => {
+test('Component', () => {
   const { getByText } = render(<MyComponent>Hello</MyComponent>);
 
-  getByText("Hello");
+  getByText('Hello');
 });
