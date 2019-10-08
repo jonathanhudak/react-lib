@@ -17,29 +17,29 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "react": "^16.8.6"
+    "react": "^16.10.2"
   },
   "devDependencies": {
-    "@babel/core": "^7.4.5",
-    "@babel/preset-env": "^7.4.5",
+    "@babel/core": "^7.6.2",
+    "@babel/preset-env": "^7.6.2",
     "@babel/preset-react": "^7.0.0",
-    "@testing-library/react": "^8.0.1",
-    "babel-eslint": "^10.0.1",
-    "babel-jest": "^24.8.0",
-    "concurrently": "^4.1.0",
-    "eslint": "^5.16.0",
-    "eslint-config-prettier": "^4.3.0",
-    "eslint-plugin-jest": "^22.6.4",
-    "eslint-plugin-prettier": "^3.1.0",
-    "eslint-plugin-react": "^7.13.0",
-    "eslint-plugin-react-hooks": "^1.6.0",
-    "gh-pages": "^2.0.1",
-    "jest": "^24.8.0",
-    "parcel-bundler": "^1.12.3",
+    "@testing-library/react": "^9.3.0",
+    "babel-eslint": "^10.0.3",
+    "babel-jest": "^24.9.0",
+    "concurrently": "^5.0.0",
+    "eslint": "^6.5.1",
+    "eslint-config-prettier": "^6.4.0",
+    "eslint-plugin-jest": "^22.17.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-react": "^7.16.0",
+    "eslint-plugin-react-hooks": "^2.1.2",
+    "gh-pages": "^2.1.1",
+    "jest": "^24.9.0",
+    "parcel-bundler": "^1.12.4",
     "prettier": "^1.18.2",
-    "react-dom": "^16.8.6",
-    "rollup": "^1.1.2",
-    "rollup-plugin-babel": "^4.3.2"
+    "react-dom": "^16.10.2",
+    "rollup": "^1.23.1",
+    "rollup-plugin-babel": "^4.3.3"
   },
   "jest": {
     "verbose": true

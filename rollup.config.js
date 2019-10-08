@@ -1,10 +1,10 @@
-import babel from "rollup-plugin-babel";
+import babel from 'rollup-plugin-babel';
 
 export default {
-  input: "src/index.js",
+  input: 'src/index.js',
   output: {
-    file: "index.js",
-    format: "esm"
+    file: 'index.js',
+    format: 'cjs'
   },
   plugins: [babel()]
 };
